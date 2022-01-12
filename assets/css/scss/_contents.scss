@@ -1,0 +1,160 @@
+main#home {
+  .banner {
+    background-image: url(/assets/img/banner-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    font-size: 2em;
+    h1 {
+      font-family: "PlayfairDisplay Bold";
+      font-size: 2.5em;
+    }
+  }
+  .content {
+    font-size: 18px;
+    h6 {
+      font-family: "PlayfairDisplay Bold";
+      font-size: 24px;
+      color: $text-gold;
+    }
+  }
+}
+
+main#membership {
+  .banner {
+    background-image: url(/assets/img/banner-membership.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    h1 {
+      font-family: "PlayfairDisplay Bold";
+      font-size: 3.5em;
+    }
+  }
+  .content {
+    font-size: 24px;
+    .membership-plan {
+      .header {
+        font-weight: bold;
+        p:first-child {
+          font-size: 18px;
+        }
+        p:last-child {
+          color: $text-gold;
+        }
+      }
+      .bor-bot {
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          background: $text-color;
+          opacity: 0.5;
+          height: 2px;
+          width: 80%;
+          bottom: 0;
+          left: 10%;
+          right: 10%;
+        }
+      }
+      .bor-lef {
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          background: $text-color;
+          opacity: 0.5;
+          height: 80%;
+          width: 2px;
+          bottom: 0;
+          left: 0;
+        }
+      }
+      .bor-rig {
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          background: $text-color;
+          opacity: 0.5;
+          height: 80%;
+          width: 2px;
+          bottom: 0;
+          right: 0;
+        }
+      }
+      .content {
+        h6 {
+          font-size: 18px;
+        }
+        i {
+          color: $text-gold;
+        }
+        i,
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+main#judefitness {
+  .banner {
+    background-image: url(/assets/img/banner-judefitness.png);
+  }
+}
+main#ghazalspa {
+  .banner {
+    background-image: url(/assets/img/banner-ghazal.png);
+  }
+}
+main#welnessandphysiotherapy {
+  .banner {
+    background-image: url(/assets/img/banner-welnessandphysiotherapy.png);
+  }
+}
+
+main#judefitness,
+main#ghazalspa,
+main#welnessandphysiotherapy {
+  .banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    h1 {
+      font-family: "PlayfairDisplay Bold";
+      font-size: 3.5em;
+    }
+  }
+  .content {
+    font-size: 18px;
+    font-weight: normal;
+    .bg-white {
+      font-weight: bold;
+    }
+    h4 {
+      font-size: 24px;
+      font-family: "PlayfairDisplay Bold";
+      color: $text-gold;
+    }
+  }
+}
+
+main#termsandconditions {
+  h1 {
+    font-size: 24px;
+    font-family: "PlayfairDisplay Bold";
+    color: $text-gold;
+  }
+  h3 {
+    font-weight: bolder;
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+}

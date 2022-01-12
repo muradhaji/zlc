@@ -1,0 +1,20 @@
+footer {
+  font-size: 16px;
+  background-color: #ffffff;
+  .copyright-text {
+    font-size: 13px;
+    color: $text-gold;
+    i {
+      font-size: 13px;
+    }
+  }
+  i {
+    color: $text-gold;
+    font-size: 28px;
+  }
+  a,
+  a:hover {
+    text-decoration: none;
+    color: $text-color;
+  }
+}

@@ -1,0 +1,35 @@
+header {
+  background-color: #ffffff;
+  font-weight: bold;
+  .inner {
+    height: 120px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      height: auto;
+    }
+    nav {
+      flex-grow: 1;
+      padding: 0 20px;
+      ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 0;
+        li {
+          display: inline-block;
+          a {
+            text-decoration: none;
+            color: $text-color;
+            &.active {
+              color: $text-gold;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+$bg-color: #f6f6f6;
+$text-color: #292929;
+$text-gold: #cca734;
+
+@import "header";
+@import "contents";
+@import "footer";
+
+@font-face {
+  font-family: "CirceRounded Regular";
+  src: url(/assets/fonts/CirceRounded/CirceRounded-Regular.otf);
+}
+
+@font-face {
+  font-family: "CirceRounded Bold";
+  src: url(/assets/fonts/CirceRounded/CirceRounded-Bold.otf);
+}
+
+@font-face {
+  font-family: "PlayfairDisplay Bold";
+  src: url(/assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf);
+}
+
+body {
+  font-family: "CirceRounded Regular";
+  background-color: $bg-color;
+}
+
+img[alt="Logo"] {
+  width: 84px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.text-gold {
+  color: $text-gold;
+}
