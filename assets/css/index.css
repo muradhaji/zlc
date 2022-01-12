@@ -55,7 +55,7 @@ header .inner nav ul li a.active {
 }
 
 main#home .banner {
-  background-image: url(/assets/img/banner-home.png);
+  background-image: url(../../../assets/img/banner-home.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -79,7 +79,7 @@ main#home .content h6 {
 }
 
 main#membership .banner {
-  background-image: url(/assets/img/banner-membership.png);
+  background-image: url(../../../assets/img/banner-membership.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -167,15 +167,15 @@ main#membership .content .membership-plan .content p {
 }
 
 main#judefitness .banner {
-  background-image: url(/assets/img/banner-judefitness.png);
+  background-image: url(../../../assets/img/banner-judefitness.png);
 }
 
 main#ghazalspa .banner {
-  background-image: url(/assets/img/banner-ghazal.png);
+  background-image: url(../../../assets/img/banner-ghazal.png);
 }
 
 main#welnessandphysiotherapy .banner {
-  background-image: url(/assets/img/banner-welnessandphysiotherapy.png);
+  background-image: url(../../../assets/img/banner-welnessandphysiotherapy.png);
 }
 
 main#judefitness .banner,
@@ -257,17 +257,17 @@ footer a:hover {
 
 @font-face {
   font-family: "CirceRounded Regular";
-  src: url(/assets/fonts/CirceRounded/CirceRounded-Regular.otf);
+  src: url(../../../assets/fonts/CirceRounded/CirceRounded-Regular.otf);
 }
 
 @font-face {
   font-family: "CirceRounded Bold";
-  src: url(/assets/fonts/CirceRounded/CirceRounded-Bold.otf);
+  src: url(../../../assets/fonts/CirceRounded/CirceRounded-Bold.otf);
 }
 
 @font-face {
   font-family: "PlayfairDisplay Bold";
-  src: url(/assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf);
+  src: url(../../../assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf);
 }
 
 body {
