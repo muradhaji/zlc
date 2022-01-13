@@ -78,6 +78,14 @@ main#home .content h6 {
   color: #cca734;
 }
 
+main#home .content .bg-white:first-child {
+  padding: 70px;
+}
+
+main#home .content .bg-white:first-child img {
+  width: 280px;
+}
+
 main#membership .banner {
   background-image: url(./../../../assets/img/banner-membership.png);
   background-repeat: no-repeat;

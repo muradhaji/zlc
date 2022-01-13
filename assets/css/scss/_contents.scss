@@ -18,6 +18,12 @@ main#home {
       font-size: 24px;
       color: $text-gold;
     }
+    .bg-white:first-child {
+      padding: 70px;
+      img {
+        width: 280px;
+      }
+    }
   }
 }
 
