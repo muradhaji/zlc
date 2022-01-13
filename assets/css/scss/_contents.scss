@@ -98,6 +98,15 @@ main#membership {
         }
       }
     }
+    .additional-benefits {
+      p,
+      i {
+        font-size: 14px;
+      }
+      i {
+        color: $text-gold;
+      }
+    }
   }
 }
 

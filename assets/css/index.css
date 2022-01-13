@@ -166,6 +166,15 @@ main#membership .content .membership-plan .content p {
   font-size: 14px;
 }
 
+main#membership .content .additional-benefits p,
+main#membership .content .additional-benefits i {
+  font-size: 14px;
+}
+
+main#membership .content .additional-benefits i {
+  color: #cca734;
+}
+
 main#judefitness .banner {
   background-image: url(./../../../assets/img/banner-judefitness.png);
 }
